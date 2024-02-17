@@ -55,7 +55,6 @@ function App() {
   if (!data) return <Loading />;
   let hrs = new Date().getHours();
 
-  console.log(data);
   return (
     <Layout>
       <div className="p-8 w-full flex justify-between gap-4 m-auto backdrop-blur-sm min-h-dvh tablet:flex-col large-mobile:p-2 large-mobile:justify-center">

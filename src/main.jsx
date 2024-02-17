@@ -5,9 +5,9 @@ import "./index.css";
 import { DataProvider } from "./context/data.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  /* <React.StrictMode> */
+  <React.StrictMode>
     <DataProvider>
       <App />
     </DataProvider>
-  /* </React.StrictMode> */
+  </React.StrictMode>
 );
