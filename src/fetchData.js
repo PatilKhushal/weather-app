@@ -11,7 +11,7 @@ export async function getData(city) {
 
 export async function searchCity(city)
 {
-    let response = await fetch(`http://api.weatherapi.com/v1/search.json?key=${key}&q=${city}`);
+    let response = await fetch(`https://api.weatherapi.com/v1/search.json?key=${key}&q=${city}`);
     let result = await response.json();
     return result;
 }
